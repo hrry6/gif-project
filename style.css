@@ -1,0 +1,75 @@
+:root{
+    --dark: #111827;
+    --red:#dc143c;
+    --orange:#f38701;
+}
+*
+{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+body
+{
+    background-color: var(--dark);
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+button
+{
+    background-color: rgba(48, 23, 187, 0.699);
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 25px 35px;
+    border-radius: 40px;
+    cursor: pointer;
+    font-size: 1.5rem;
+    border: none;
+}
+ button i
+{
+    font-size: 2.5rem;
+    padding: 1rem;
+}
+.hidden
+{
+    display: none;
+}
+.card
+{
+    text-align: center;
+    width: 300px;
+    height: 500px;
+}
+.card p
+{
+    margin-top: 1.5rem;
+    color: var(--red);
+    font-size: 1.5rem;
+}
+.card span
+{
+    color: var(--orange);
+}
+img
+{
+    width: 100%;
+    height: 300px;
+}
+@media(max-width:768px){
+    button
+    {
+        padding: 15px 25px;        
+        font-size: 1rem;
+    }
+    button i
+    {
+        font-size: 1.5rem;
+    }
+}
